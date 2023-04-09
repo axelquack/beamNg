@@ -6,7 +6,19 @@ Here is a brief overview of the notebooks to find in this repository:
 
 ## Jupyter notebooks
 
-* **WORK IN PROGRESS** `useOSMdataWithBeamNg.ipynb` - In this example, we download OpenStreetMap data for San Francisco and use the OSMnx library to generate a network graph of the streets and roads in the area. We then use the Scenario and Road classes in BeamNGpy to create a scenario that includes roads based on the OpenStreetMap data. Finally, we add a vehicle to the scenario and use the ai_set_route method to drive the vehicle along the roads in the scenario.
+### OpenStreetMap with BeamNG.drive
+
+**WORK IN PROGRESS** `useOSMdataWithBeamNg.ipynb` - In this example, we download OpenStreetMap data for San Francisco and use the OSMnx library to generate a network graph of the streets and roads in the area. We then use the Scenario and Road classes in BeamNGpy to create a scenario that includes roads based on the OpenStreetMap data. Finally, we add a vehicle to the scenario and use the ai_set_route method to drive the vehicle along the roads in the scenario.
+
+#### Setting up the Conda environement
+
+1. Ensure you have Conda installed on your system.
+2. Open your terminal or Anaconda Prompt, navigate to the directory containing the `environment.yml` file, and create a new Conda environment called 'beam_ng' with the specified packages: `conda env create -f environment.yml`
+3. Activate the `beam_ng` environment: `conda activate beam_ng`
+4. Launch the Jupyter Notebook: `jupyter notebook`
+5. Now, open the Jupyter Notebook file (`useOSMdataWithBeamNg.ipynb`) and run the code cells.
+
+## Additional information
 
 All Jupyter notebooks in this repository are available under the Creative Commons License for Non-Commercial Use. This means that you are free to use, modify, and share these projects as long as it is for non-commercial purposes. If you wish to use these Jupyter notebooks for commercial purposes, please contact the owner of this repository for licensing information.
 
