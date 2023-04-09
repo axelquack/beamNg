@@ -1,12 +1,12 @@
 # README
 
-Welcome to this private Jupyter notebooks repository on GitHub. This repository contains several Jupyter notebooks for BeamNG.tech. Each notebook has a unique purpose and is available for non-commercial use under the Creative Commons License.
+Welcome to this private Jupyter notebooks repository on GitHub. This repository contains several Jupyter notebooks for BeamNG. Each notebook has a unique purpose and is available for non-commercial use under the Creative Commons License.
 
 Here is a brief overview of the notebooks to find in this repository:
 
 ## Jupyter notebooks
 
-### OpenStreetMap with BeamNG.tech
+### OpenStreetMap with BeamNG
 
 **WORK IN PROGRESS** `useOSMdataWithBeamNg.ipynb` - In this example, we download OpenStreetMap data for San Francisco and use the OSMnx library to generate a network graph of the streets and roads in the area. We then use the Scenario and Road classes in BeamNGpy to create a scenario that includes roads based on the OpenStreetMap data. Finally, we add a vehicle to the scenario and use the ai_set_route method to drive the vehicle along the roads in the scenario.
 
@@ -18,14 +18,14 @@ Here is a brief overview of the notebooks to find in this repository:
 4. Launch the Jupyter Notebook: `jupyter notebook`
 5. Now, open the Jupyter Notebook file (`useOSMdataWithBeamNg.ipynb`) and run the code cells.
 
-#### Communicate with BeamNG.tech through a specified port
+#### Communicate with BeamNG through a specified port
 
-Before you run the notebook, you need to install and set up the BeamNG Research extension on the computer running the BeamNG.tech simulation. Follow these steps:
+Before you run the notebook, you need to install and set up the BeamNG Research extension on the computer running the BeamNG simulation. Follow these steps:
 
 1. Download the latest release of BeamNG.research from the official GitHub repository: [https://github.com/BeamNG/BeamNGpy/releases](https://github.com/BeamNG/BeamNGpy/releases)
 2. Extract the contents of the downloaded archive.
-3. Copy the extracted research folder into your BeamNG.tech installation's mods folder. The path should look like: `<BeamNG.tech_folder>/mods/research`.
-4. Start BeamNG.tech.
+3. Copy the extracted research folder into your BeamNG installation's mods folder. The path should look like: `<BeamNG_folder>/mods/research`.
+4. Start BeamNG.
 5. Activate the BeamNG Research mod by going to `Options > Mods`, find the "Research" mod, and enable it. Restart the simulation when prompted.
 6. In the main menu, click on the "Play" button and then select "Scenarios". From the list of scenarios, select "beamngpy" and then click "Start".
 
