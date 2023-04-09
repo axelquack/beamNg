@@ -18,6 +18,17 @@ Here is a brief overview of the notebooks to find in this repository:
 4. Launch the Jupyter Notebook: `jupyter notebook`
 5. Now, open the Jupyter Notebook file (`useOSMdataWithBeamNg.ipynb`) and run the code cells.
 
+#### Communicate with BeamNG.drive through a specified port
+
+Before you run the notebook, you need to install and set up the BeamNG Research extension on the computer running the BeamNG.drive game. Follow these steps:
+
+1. Download the latest release of BeamNG.research from the official GitHub repository: [https://github.com/BeamNG/BeamNGpy/releases](https://github.com/BeamNG/BeamNGpy/releases)
+2. Extract the contents of the downloaded archive.
+3. Copy the extracted research folder into your BeamNG.drive installation's mods folder. The path should look like: `<BeamNG.drive_folder>/mods/research`.
+4. Start BeamNG.drive.
+5. Activate the BeamNG Research mod by going to `Options > Mods`, find the "Research" mod, and enable it. Restart the game when prompted.
+6. In the main menu, click on the "Play" button and then select "Scenarios". From the list of scenarios, select "beamngpy" and then click "Start".
+
 ## Additional information
 
 All Jupyter notebooks in this repository are available under the Creative Commons License for Non-Commercial Use. This means that you are free to use, modify, and share these projects as long as it is for non-commercial purposes. If you wish to use these Jupyter notebooks for commercial purposes, please contact the owner of this repository for licensing information.
